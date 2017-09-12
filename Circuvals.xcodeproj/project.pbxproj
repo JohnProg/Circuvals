@@ -30,6 +30,8 @@
 		499470A41E576598007D8DB4 /* IntervalListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */; };
 		4997D1091E8CD79F00CE898E /* UIApplication+Startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997D1081E8CD79F00CE898E /* UIApplication+Startup.swift */; };
 		49B0DC2B1DAFA6750035B1EB /* SpeechQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0DC2A1DAFA6750035B1EB /* SpeechQueue.swift */; };
+		49C07B681F67FD1800EDCF5C /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */; };
+		49C07B691F67FD1800EDCF5C /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B59881F1F285C00C2CB8F /* XCGLogger.framework */; };
 		49C1B03A1DF0B57A005D66BE /* IntervalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1B0391DF0B57A005D66BE /* IntervalListTableViewController.swift */; };
 		49C518E61F58195C0097608A /* EditTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C518E51F58195C0097608A /* EditTitleTableViewCell.swift */; };
 		49C60FE61D9518C90042E478 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE51D9518C90042E478 /* TimerViewController.swift */; };
@@ -130,6 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C07B681F67FD1800EDCF5C /* ObjcExceptionBridging.framework in Frameworks */,
+				49C07B691F67FD1800EDCF5C /* XCGLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,7 +673,7 @@
 				INFOPLIST_FILE = Circuvals/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.Circuvals;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.circuvals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -692,7 +696,7 @@
 				INFOPLIST_FILE = Circuvals/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.Circuvals;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.circuvals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
