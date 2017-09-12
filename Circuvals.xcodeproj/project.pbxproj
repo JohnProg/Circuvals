@@ -13,7 +13,7 @@
 		49272B7C1E3B23F700D6B449 /* IntervalFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */; };
 		492E6D411F643BAF00906BA2 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E6D401F643BAF00906BA2 /* TestHelper.swift */; };
 		494F8A811DA5334B00D0C1AC /* EditDurationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */; };
-		495BA2671E6718060088223E /* IntervalTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495BA2661E6718060088223E /* IntervalTableViewUITests.swift */; };
+		495BA2671E6718060088223E /* CircuvalsUITests in Sources */ = {isa = PBXBuildFile; fileRef = 495BA2661E6718060088223E /* CircuvalsUITests */; };
 		496957691D93092E00E9B368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957681D93092E00E9B368 /* AppDelegate.swift */; };
 		496957711D93092E00E9B368 /* Circuvals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */; };
 		496957731D93092E00E9B368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496957721D93092E00E9B368 /* Assets.xcassets */; };
@@ -71,13 +71,12 @@
 		4917251F1DFD6EFB00B6156A /* IntervalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalTableViewController.swift; sourceTree = "<group>"; };
 		49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalFormatterTests.swift; sourceTree = "<group>"; };
 		492E6D401F643BAF00906BA2 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
-		494378961F599EE700DFCA45 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		494B597E1F1E941900C2CB8F /* CoreInterval v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v2.xcdatamodel"; sourceTree = "<group>"; };
 		494B597F1F1F1F1E00C2CB8F /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = SOURCE_ROOT; };
 		494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/iOS/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
 		494B59881F1F285C00C2CB8F /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 		494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDurationTableViewCell.swift; sourceTree = "<group>"; };
-		495BA2661E6718060088223E /* IntervalTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntervalTableViewUITests.swift; path = CoreIntervalUITests/IntervalTableViewUITests.swift; sourceTree = SOURCE_ROOT; };
+		495BA2661E6718060088223E /* CircuvalsUITests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = CircuvalsUITests; sourceTree = SOURCE_ROOT; };
 		496957651D93092E00E9B368 /* Circuvals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circuvals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496957681D93092E00E9B368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496957701D93092E00E9B368 /* CoreInterval.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreInterval.xcdatamodel; sourceTree = "<group>"; };
@@ -183,7 +182,6 @@
 		4969575C1D93092E00E9B368 = {
 			isa = PBXGroup;
 			children = (
-				494378961F599EE700DFCA45 /* TODO.md */,
 				496957671D93092E00E9B368 /* Circuvals */,
 				4969577F1D93092E00E9B368 /* CircuvalsTests */,
 				4969578A1D93092E00E9B368 /* CircuvalsUITests */,
@@ -244,7 +242,7 @@
 				49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */,
 				49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */,
 				499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */,
-				495BA2661E6718060088223E /* IntervalTableViewUITests.swift */,
+				495BA2661E6718060088223E /* CircuvalsUITests */,
 				4969578D1D93092E00E9B368 /* Info.plist */,
 			);
 			path = CircuvalsUITests;
@@ -497,7 +495,7 @@
 			files = (
 				49E20BE31E4B4397001AACD9 /* SetListTableViewUITests.swift in Sources */,
 				49C9C1F31E5621D100584F92 /* StaticTableViewUITests.swift in Sources */,
-				495BA2671E6718060088223E /* IntervalTableViewUITests.swift in Sources */,
+				495BA2671E6718060088223E /* CircuvalsUITests in Sources */,
 				499470A41E576598007D8DB4 /* IntervalListTableViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
