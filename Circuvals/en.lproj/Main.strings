@@ -1,0 +1,150 @@
+
+/* Class = "UILabel"; text = "Interval"; ObjectID = "0L3-R2-xdJ"; */
+"0L3-R2-xdJ.text" = "Interval";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "1dk-RZ-YIq"; */
+"1dk-RZ-YIq.title" = "Edit";
+
+/* Class = "UITextField"; accessibilityLabel = "Title Field"; ObjectID = "5WS-ph-9AV"; */
+"5WS-ph-9AV.accessibilityLabel" = "Title Field";
+
+/* Class = "UITextField"; placeholder = "Test"; ObjectID = "5WS-ph-9AV"; */
+"5WS-ph-9AV.placeholder" = "Test";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "5u5-An-CAg"; */
+"5u5-An-CAg.title" = "Back";
+
+/* Class = "UITableViewSection"; headerTitle = "Audio"; ObjectID = "6H6-AP-xgu"; */
+"6H6-AP-xgu.headerTitle" = "Audio";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Intervals"; ObjectID = "9bl-xq-xJo"; */
+"9bl-xq-xJo.accessibilityLabel" = "Intervals";
+
+/* Class = "UITableViewSection"; headerTitle = "Settings"; ObjectID = "AcR-as-EVG"; */
+"AcR-as-EVG.headerTitle" = "Settings";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "EmJ-Rm-SXC"; */
+"EmJ-Rm-SXC.text" = "Title";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Frh-Wu-ier"; */
+"Frh-Wu-ier.text" = "00:00";
+
+/* Class = "UILabel"; text = "Halftime"; ObjectID = "GJw-Aj-Uyr"; */
+"GJw-Aj-Uyr.text" = "Halftime";
+
+/* Class = "UINavigationItem"; title = "Interval"; ObjectID = "HX2-Dd-vgW"; */
+"HX2-Dd-vgW.title" = "Interval";
+
+/* Class = "UITableViewSection"; headerTitle = "Title"; ObjectID = "HXM-6M-0aL"; */
+"HXM-6M-0aL.headerTitle" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "HpT-NK-Il2"; */
+"HpT-NK-Il2.normalTitle" = "Start";
+
+/* Class = "UIButton"; selectedTitle = "Pause"; ObjectID = "HpT-NK-Il2"; */
+"HpT-NK-Il2.selectedTitle" = "Pause";
+
+/* Class = "UILabel"; text = "Countdown"; ObjectID = "Jf5-kS-rhy"; */
+"Jf5-kS-rhy.text" = "Countdown";
+
+/* Class = "UILabel"; text = "5 / 8"; ObjectID = "KIJ-gW-uQ6"; */
+"KIJ-gW-uQ6.text" = "5 / 8";
+
+/* Class = "UILabel"; text = "HIGH"; ObjectID = "Qzm-hG-5GG"; */
+"Qzm-hG-5GG.text" = "HIGH";
+
+/* Class = "UILabel"; text = "Remaining"; ObjectID = "TLB-dm-N5Y"; */
+"TLB-dm-N5Y.text" = "Remaining";
+
+/* Class = "UILabel"; text = "Repeat Set"; ObjectID = "TQ5-Py-uVa"; */
+"TQ5-Py-uVa.text" = "Repeat Set";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "TwN-Vx-WVK"; */
+"TwN-Vx-WVK.normalTitle" = "Reset";
+
+/* Class = "UIButton"; accessibilityLabel = "Select Set"; ObjectID = "Wyj-gl-g3P"; */
+"Wyj-gl-g3P.accessibilityLabel" = "Select Set";
+
+/* Class = "UIButton"; normalTitle = "Title"; ObjectID = "Wyj-gl-g3P"; */
+"Wyj-gl-g3P.normalTitle" = "Title";
+
+/* Class = "UINavigationItem"; title = "Set"; ObjectID = "Xb3-fj-eip"; */
+"Xb3-fj-eip.title" = "Set";
+
+/* Class = "UILabel"; text = "Elapsed in Interval"; ObjectID = "ZK0-Ek-n8P"; */
+"ZK0-Ek-n8P.text" = "Elapsed in Interval";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "bfR-NY-kaR"; */
+"bfR-NY-kaR.text" = "00:00";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bs4-Ff-CkN"; */
+"bs4-Ff-CkN.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "btb-kP-Wku"; */
+"btb-kP-Wku.text" = "Detail";
+
+/* Class = "UITableViewSection"; headerTitle = "Intervals"; ObjectID = "c7C-ul-WOT"; */
+"c7C-ul-WOT.headerTitle" = "Intervals";
+
+/* Class = "UILabel"; text = "Feedback"; ObjectID = "cf3-CG-8uB"; */
+"cf3-CG-8uB.text" = "Feedback";
+
+/* Class = "UIButton"; normalTitle = "Lock"; ObjectID = "czt-5Q-h3j"; */
+"czt-5Q-h3j.normalTitle" = "Lock";
+
+/* Class = "UIButton"; selectedTitle = "Unlock"; ObjectID = "czt-5Q-h3j"; */
+"czt-5Q-h3j.selectedTitle" = "Unlock";
+
+/* Class = "UILabel"; accessibilityLabel = "Intervals Description"; ObjectID = "e3f-QW-rtE"; */
+"e3f-QW-rtE.accessibilityLabel" = "Intervals Description";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "e3f-QW-rtE"; */
+"e3f-QW-rtE.text" = "Detail";
+
+/* Class = "UILabel"; text = "Minutes"; ObjectID = "eXh-cX-fCq"; */
+"eXh-cX-fCq.text" = "Minutes";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "gG0-PX-4ed"; */
+"gG0-PX-4ed.text" = "00:00";
+
+/* Class = "UIViewController"; title = "Timer View"; ObjectID = "hJF-ix-VLX"; */
+"hJF-ix-VLX.title" = "Timer View";
+
+/* Class = "UINavigationItem"; title = "Select a Set"; ObjectID = "iRb-2M-ebz"; */
+"iRb-2M-ebz.title" = "Select a Set";
+
+/* Class = "UILabel"; text = "Remaining in Interval"; ObjectID = "kg6-IG-7Xj"; */
+"kg6-IG-7Xj.text" = "Remaining in Interval";
+
+/* Class = "UILabel"; text = "Elapsed"; ObjectID = "maZ-oc-7y8"; */
+"maZ-oc-7y8.text" = "Elapsed";
+
+/* Class = "UILabel"; text = "Pause at begin"; ObjectID = "nP9-xV-klQ"; */
+"nP9-xV-klQ.text" = "Pause at begin";
+
+/* Class = "UILabel"; accessibilityLabel = "Intervals"; ObjectID = "nvb-Q1-wBf"; */
+"nvb-Q1-wBf.accessibilityLabel" = "Intervals";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nvb-Q1-wBf"; */
+"nvb-Q1-wBf.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oad-Rn-uwx"; */
+"oad-Rn-uwx.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "r8T-Sx-Zlm"; */
+"r8T-Sx-Zlm.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "rkV-1q-iX0"; */
+"rkV-1q-iX0.normalTitle" = "Edit";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "srG-eG-Url"; */
+"srG-eG-Url.text" = "00:00";
+
+/* Class = "UILabel"; text = "Interval"; ObjectID = "vZ6-LB-wUs"; */
+"vZ6-LB-wUs.text" = "Interval";
+
+/* Class = "UINavigationItem"; title = "Intervals"; ObjectID = "x0y-d3-tUP"; */
+"x0y-d3-tUP.title" = "Intervals";
+
+/* Class = "UILabel"; text = "Seconds"; ObjectID = "zmn-aW-KlR"; */
+"zmn-aW-KlR.text" = "Seconds";

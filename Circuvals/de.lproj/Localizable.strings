@@ -1,0 +1,81 @@
+/* Audio feedback when set finished */
+"audio-finished" = "Set Beendet";
+
+/* Audio feedback when halftime is reached */
+"audio-halftime" = "Halbzeit";
+
+/* Audio feedback when timer is paused */
+"audio-pause" = "Pause";
+
+/* Placeholder of title textfield */
+"edittitlecell-title-placeholder" = "Titel hinzufügen";
+
+/* Duration of Interval */
+"intervaltvc-section-duration" = "Dauer";
+
+/* Settings of Interval */
+"intervaltvc-section-settings" = "Einstellungen";
+
+/* Title of Interval */
+"intervaltvc-section-title" = "Titel";
+
+/* Type of Interval */
+"intervaltvc-section-type" = "Art";
+
+/* Title of a custom set */
+"model-set-custom" = "Custom Set";
+
+/* Placeholder Title */
+"set-formatter-tile-placeholder" = "Kein Title";
+
+/* Accessibility label of button to delete set */
+"setlisttcv-act-a11-delete" = "Set löschen";
+
+/* Accessibility label of button to edit set */
+"setlisttvc-act-ac11-edit" = "Set bearbeiten";
+
+/* Message of action sheet to create a new set */
+"setlisttvc-act-add-msg" = "Wähle Vorlage …";
+
+/* Title of action sheet to create a new set */
+"setlisttvc-act-add-title" = "Neues Set …";
+
+/* Title of cancel sheet action */
+"setlisttvc-act-cancel" = "Abbrechen";
+
+/* Label of button to delete set */
+"setlisttvc-act-delete" = "Löschen";
+
+/* Label of button to edit set */
+"setlisttvc-act-edit" = "Bearbeiten";
+
+/* Title of custom set */
+"setlisttvc-set-custom" = "Custom";
+
+/* Title of little method set */
+"setlisttvc-set-little" = "Little Methode";
+
+/* Title of tabata set */
+"setlisttvc-set-tabata" = "Tabata";
+
+/* Text label of cell containing intervals */
+"settvc-cell-intervals" = "Intervalle";
+
+/* Label of button to lock/unlock timer screen */
+"timervc-btn-lock" = "Sperren";
+
+/* Label of button to start the timer */
+"timervc-btn-pause" = "Pause";
+
+/* Label of button to start the timer */
+"timervc-btn-start" = "Start";
+
+/* Label of button to lock/unlock timer screen */
+"timervc-btn-unlock" = "Entsperren";
+
+/* Label of button to start the timer */
+"timvervc-btn-continue" = "Weiter";
+
+/* Label of button to select a set */
+"timvervc-btn-selectset" = "Wähle ein Set";
+

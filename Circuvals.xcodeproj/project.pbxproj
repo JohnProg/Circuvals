@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4901371F1F5F16B100A18547 /* SetListTableViewController+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901371E1F5F16B100A18547 /* SetListTableViewController+Services.swift */; };
+		490E1B2E1DF6B6B4003C33EB /* SetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E1B2D1DF6B6B4003C33EB /* SetTableViewController.swift */; };
+		491725201DFD6EFB00B6156A /* IntervalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917251F1DFD6EFB00B6156A /* IntervalTableViewController.swift */; };
+		49272B7C1E3B23F700D6B449 /* IntervalFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */; };
+		492E6D411F643BAF00906BA2 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E6D401F643BAF00906BA2 /* TestHelper.swift */; };
+		494F8A811DA5334B00D0C1AC /* EditDurationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */; };
+		495BA2671E6718060088223E /* IntervalTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495BA2661E6718060088223E /* IntervalTableViewUITests.swift */; };
+		496957691D93092E00E9B368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957681D93092E00E9B368 /* AppDelegate.swift */; };
+		496957711D93092E00E9B368 /* Circuvals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */; };
+		496957731D93092E00E9B368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496957721D93092E00E9B368 /* Assets.xcassets */; };
+		496957811D93092E00E9B368 /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957801D93092E00E9B368 /* SetTests.swift */; };
+		4969579A1D9309DC00E9B368 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957991D9309DC00E9B368 /* Interval.swift */; };
+		496957A01D930D6700E9B368 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969579F1D930D6700E9B368 /* Set.swift */; };
+		496B3B161F1406E800CB352B /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B3B151F1406E800CB352B /* SettingsTableViewCell.swift */; };
+		4970DEF61DA3FCA200853960 /* IntervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970DEF51DA3FCA200853960 /* IntervalFormatter.swift */; };
+		497963971D943B3300B86049 /* SetTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497963961D943B3300B86049 /* SetTimer.swift */; };
+		497963991D94452000B86049 /* SetTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497963981D94452000B86049 /* SetTimerTests.swift */; };
+		49827DDE1F62697700BBBF00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49827DE01F62697700BBBF00 /* InfoPlist.strings */; };
+		49827DE31F62697800BBBF00 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49827DE51F62697800BBBF00 /* Localizable.strings */; };
+		498E30811E29284D00C85645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498E307F1E29284D00C85645 /* Main.storyboard */; };
+		499470A41E576598007D8DB4 /* IntervalListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */; };
+		4997D1091E8CD79F00CE898E /* UIApplication+Startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997D1081E8CD79F00CE898E /* UIApplication+Startup.swift */; };
+		49B0DC2B1DAFA6750035B1EB /* SpeechQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0DC2A1DAFA6750035B1EB /* SpeechQueue.swift */; };
+		49C1B03A1DF0B57A005D66BE /* IntervalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1B0391DF0B57A005D66BE /* IntervalListTableViewController.swift */; };
+		49C518E61F58195C0097608A /* EditTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C518E51F58195C0097608A /* EditTitleTableViewCell.swift */; };
+		49C60FE61D9518C90042E478 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE51D9518C90042E478 /* TimerViewController.swift */; };
+		49C60FE81D95199B0042E478 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE71D95199B0042E478 /* CircleTimerView.swift */; };
+		49C60FEA1D95238E0042E478 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE91D95238E0042E478 /* DataManager.swift */; };
+		49C60FEC1D9536960042E478 /* SetFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FEB1D9536960042E478 /* SetFormatter.swift */; };
+		49C9C1F31E5621D100584F92 /* StaticTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */; };
+		49CF0AF41DD783E20043443E /* SetFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF0AF31DD783E20043443E /* SetFormatterTests.swift */; };
+		49D0871A1DB0F16800E9F610 /* Interval+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D087191DB0F16800E9F610 /* Interval+CoreDataProperties.swift */; };
+		49D0871C1DB0F17B00E9F610 /* Set+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0871B1DB0F17B00E9F610 /* Set+CoreDataProperties.swift */; };
+		49D7ED231D9E3C3B002A6BFD /* EditTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D7ED221D9E3C3B002A6BFD /* EditTypeTableViewCell.swift */; };
+		49DC63B01DDED2610090EA1A /* IntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC63AF1DDED2610090EA1A /* IntervalTests.swift */; };
+		49DCB08A1DCCAFC400C7F620 /* SetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DCB0891DCCAFC400C7F620 /* SetFactory.swift */; };
+		49E20BE31E4B4397001AACD9 /* SetListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */; };
+		49E953D21D9BB3B00025B8E2 /* SetListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E953D11D9BB3B00025B8E2 /* SetListTableViewController.swift */; };
+		49FE8D5B1F5D89B7003E57C8 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE8D5A1F5D89B7003E57C8 /* DependencyInjection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4969577D1D93092E00E9B368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4969575D1D93092E00E9B368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496957641D93092E00E9B368;
+			remoteInfo = CoreInterval;
+		};
+		498E307A1E29270400C85645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4969575D1D93092E00E9B368 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496957641D93092E00E9B368;
+			remoteInfo = CoreInterval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4901371E1F5F16B100A18547 /* SetListTableViewController+Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SetListTableViewController+Services.swift"; sourceTree = "<group>"; };
+		490E1B2D1DF6B6B4003C33EB /* SetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTableViewController.swift; sourceTree = "<group>"; };
+		4917251F1DFD6EFB00B6156A /* IntervalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalTableViewController.swift; sourceTree = "<group>"; };
+		49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalFormatterTests.swift; sourceTree = "<group>"; };
+		492E6D401F643BAF00906BA2 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+		494378961F599EE700DFCA45 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		494B597E1F1E941900C2CB8F /* CoreInterval v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v2.xcdatamodel"; sourceTree = "<group>"; };
+		494B597F1F1F1F1E00C2CB8F /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = SOURCE_ROOT; };
+		494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/iOS/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
+		494B59881F1F285C00C2CB8F /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDurationTableViewCell.swift; sourceTree = "<group>"; };
+		495BA2661E6718060088223E /* IntervalTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntervalTableViewUITests.swift; path = CoreIntervalUITests/IntervalTableViewUITests.swift; sourceTree = SOURCE_ROOT; };
+		496957651D93092E00E9B368 /* Circuvals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circuvals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496957681D93092E00E9B368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		496957701D93092E00E9B368 /* CoreInterval.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreInterval.xcdatamodel; sourceTree = "<group>"; };
+		496957721D93092E00E9B368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496957771D93092E00E9B368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4969577C1D93092E00E9B368 /* CircuvalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuvalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496957801D93092E00E9B368 /* SetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTests.swift; sourceTree = "<group>"; };
+		496957821D93092E00E9B368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4969578B1D93092E00E9B368 /* SetTimerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimerViewUITests.swift; sourceTree = "<group>"; };
+		4969578D1D93092E00E9B368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496957991D9309DC00E9B368 /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		4969579F1D930D6700E9B368 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		496B3B151F1406E800CB352B /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		4970DEF51DA3FCA200853960 /* IntervalFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalFormatter.swift; sourceTree = "<group>"; };
+		497963961D943B3300B86049 /* SetTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTimer.swift; sourceTree = "<group>"; };
+		497963981D94452000B86049 /* SetTimerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetTimerTests.swift; sourceTree = "<group>"; };
+		49827DDB1F6264FA00BBBF00 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		49827DDF1F62697700BBBF00 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49827DE41F62697800BBBF00 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49827DE61F6269AD00BBBF00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		49827DE71F6269AD00BBBF00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49827DE81F6269AD00BBBF00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498E30751E29270400C85645 /* CircuvalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuvalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498E30801E29284D00C85645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalListTableViewUITests.swift; sourceTree = "<group>"; };
+		4997D1081E8CD79F00CE898E /* UIApplication+Startup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Startup.swift"; sourceTree = "<group>"; };
+		49B0DC2A1DAFA6750035B1EB /* SpeechQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechQueue.swift; sourceTree = "<group>"; };
+		49C1B0391DF0B57A005D66BE /* IntervalListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalListTableViewController.swift; sourceTree = "<group>"; };
+		49C518E41F580CF80097608A /* CoreInterval v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v3.xcdatamodel"; sourceTree = "<group>"; };
+		49C518E51F58195C0097608A /* EditTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleTableViewCell.swift; sourceTree = "<group>"; };
+		49C60FE51D9518C90042E478 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		49C60FE71D95199B0042E478 /* CircleTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
+		49C60FE91D95238E0042E478 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		49C60FEB1D9536960042E478 /* SetFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFormatter.swift; sourceTree = "<group>"; };
+		49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTableViewUITests.swift; sourceTree = "<group>"; };
+		49CA2D3D1F5FC4DC002AA03C /* CoreInterval v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v4.xcdatamodel"; sourceTree = "<group>"; };
+		49CA2D3E1F5FFB4E002AA03C /* CoreInterval v5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v5.xcdatamodel"; sourceTree = "<group>"; };
+		49CF0AF31DD783E20043443E /* SetFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFormatterTests.swift; sourceTree = "<group>"; };
+		49D087191DB0F16800E9F610 /* Interval+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Interval+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49D0871B1DB0F17B00E9F610 /* Set+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		49D7ED221D9E3C3B002A6BFD /* EditTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTypeTableViewCell.swift; sourceTree = "<group>"; };
+		49DC63AF1DDED2610090EA1A /* IntervalTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalTests.swift; sourceTree = "<group>"; };
+		49DCB0891DCCAFC400C7F620 /* SetFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFactory.swift; sourceTree = "<group>"; };
+		49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetListTableViewUITests.swift; sourceTree = "<group>"; };
+		49E953D11D9BB3B00025B8E2 /* SetListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetListTableViewController.swift; sourceTree = "<group>"; };
+		49FE8D5A1F5D89B7003E57C8 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496957621D93092E00E9B368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496957791D93092E00E9B368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498E30721E29270400C85645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494AE2491F5C219D006D8AFC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49FE8D5A1F5D89B7003E57C8 /* DependencyInjection.swift */,
+				497963961D943B3300B86049 /* SetTimer.swift */,
+				49B0DC2A1DAFA6750035B1EB /* SpeechQueue.swift */,
+				49C60FE91D95238E0042E478 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		494AE24A1F5C21D7006D8AFC /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				4970DEF51DA3FCA200853960 /* IntervalFormatter.swift */,
+				49C60FEB1D9536960042E478 /* SetFormatter.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		494B59891F1F287600C2CB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */,
+				494B59881F1F285C00C2CB8F /* XCGLogger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4969575C1D93092E00E9B368 = {
+			isa = PBXGroup;
+			children = (
+				494378961F599EE700DFCA45 /* TODO.md */,
+				496957671D93092E00E9B368 /* Circuvals */,
+				4969577F1D93092E00E9B368 /* CircuvalsTests */,
+				4969578A1D93092E00E9B368 /* CircuvalsUITests */,
+				496957661D93092E00E9B368 /* Products */,
+				494B59891F1F287600C2CB8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		496957661D93092E00E9B368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496957651D93092E00E9B368 /* Circuvals.app */,
+				4969577C1D93092E00E9B368 /* CircuvalsTests.xctest */,
+				498E30751E29270400C85645 /* CircuvalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496957671D93092E00E9B368 /* Circuvals */ = {
+			isa = PBXGroup;
+			children = (
+				496957681D93092E00E9B368 /* AppDelegate.swift */,
+				4997D1081E8CD79F00CE898E /* UIApplication+Startup.swift */,
+				498E307F1E29284D00C85645 /* Main.storyboard */,
+				496957721D93092E00E9B368 /* Assets.xcassets */,
+				496957771D93092E00E9B368 /* Info.plist */,
+				49827DE51F62697800BBBF00 /* Localizable.strings */,
+				49827DE01F62697700BBBF00 /* InfoPlist.strings */,
+				4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */,
+				494B597F1F1F1F1E00C2CB8F /* LICENCE */,
+				49B780631D94112F002F0017 /* Controller */,
+				49B780601D93F9B2002F0017 /* View */,
+				494AE24A1F5C21D7006D8AFC /* Formatter */,
+				494AE2491F5C219D006D8AFC /* Services */,
+				49B780451D931567002F0017 /* Model */,
+			);
+			path = Circuvals;
+			sourceTree = "<group>";
+		};
+		4969577F1D93092E00E9B368 /* CircuvalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */,
+				49DC63AF1DDED2610090EA1A /* IntervalTests.swift */,
+				496957801D93092E00E9B368 /* SetTests.swift */,
+				49CF0AF31DD783E20043443E /* SetFormatterTests.swift */,
+				497963981D94452000B86049 /* SetTimerTests.swift */,
+				492E6D401F643BAF00906BA2 /* TestHelper.swift */,
+				496957821D93092E00E9B368 /* Info.plist */,
+			);
+			path = CircuvalsTests;
+			sourceTree = "<group>";
+		};
+		4969578A1D93092E00E9B368 /* CircuvalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4969578B1D93092E00E9B368 /* SetTimerViewUITests.swift */,
+				49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */,
+				49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */,
+				499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */,
+				495BA2661E6718060088223E /* IntervalTableViewUITests.swift */,
+				4969578D1D93092E00E9B368 /* Info.plist */,
+			);
+			path = CircuvalsUITests;
+			sourceTree = "<group>";
+		};
+		49B780451D931567002F0017 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				496957991D9309DC00E9B368 /* Interval.swift */,
+				49D087191DB0F16800E9F610 /* Interval+CoreDataProperties.swift */,
+				49D0871B1DB0F17B00E9F610 /* Set+CoreDataProperties.swift */,
+				4969579F1D930D6700E9B368 /* Set.swift */,
+				49DCB0891DCCAFC400C7F620 /* SetFactory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49B780601D93F9B2002F0017 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */,
+				49D7ED221D9E3C3B002A6BFD /* EditTypeTableViewCell.swift */,
+				496B3B151F1406E800CB352B /* SettingsTableViewCell.swift */,
+				49C518E51F58195C0097608A /* EditTitleTableViewCell.swift */,
+				49C60FE71D95199B0042E478 /* CircleTimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49B780631D94112F002F0017 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49C60FE51D9518C90042E478 /* TimerViewController.swift */,
+				49E953D11D9BB3B00025B8E2 /* SetListTableViewController.swift */,
+				4901371E1F5F16B100A18547 /* SetListTableViewController+Services.swift */,
+				490E1B2D1DF6B6B4003C33EB /* SetTableViewController.swift */,
+				49C1B0391DF0B57A005D66BE /* IntervalListTableViewController.swift */,
+				4917251F1DFD6EFB00B6156A /* IntervalTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496957641D93092E00E9B368 /* Circuvals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496957901D93092E00E9B368 /* Build configuration list for PBXNativeTarget "Circuvals" */;
+			buildPhases = (
+				496957611D93092E00E9B368 /* Sources */,
+				496957621D93092E00E9B368 /* Frameworks */,
+				496957631D93092E00E9B368 /* Resources */,
+				494123D41E51F52D00AACA89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circuvals;
+			productName = CoreInterval;
+			productReference = 496957651D93092E00E9B368 /* Circuvals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4969577B1D93092E00E9B368 /* CircuvalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496957931D93092E00E9B368 /* Build configuration list for PBXNativeTarget "CircuvalsTests" */;
+			buildPhases = (
+				496957781D93092E00E9B368 /* Sources */,
+				496957791D93092E00E9B368 /* Frameworks */,
+				4969577A1D93092E00E9B368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4969577E1D93092E00E9B368 /* PBXTargetDependency */,
+			);
+			name = CircuvalsTests;
+			productName = CoreIntervalTests;
+			productReference = 4969577C1D93092E00E9B368 /* CircuvalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		498E30741E29270400C85645 /* CircuvalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498E307C1E29270400C85645 /* Build configuration list for PBXNativeTarget "CircuvalsUITests" */;
+			buildPhases = (
+				498E30711E29270400C85645 /* Sources */,
+				498E30721E29270400C85645 /* Frameworks */,
+				498E30731E29270400C85645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498E307B1E29270400C85645 /* PBXTargetDependency */,
+			);
+			name = CircuvalsUITests;
+			productName = CoreIntervalUITests;
+			productReference = 498E30751E29270400C85645 /* CircuvalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4969575D1D93092E00E9B368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Marc Rummel";
+				TargetAttributes = {
+					496957641D93092E00E9B368 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J6HU7FZCS8;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					4969577B1D93092E00E9B368 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J6HU7FZCS8;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 496957641D93092E00E9B368;
+					};
+					498E30741E29270400C85645 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J6HU7FZCS8;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 496957641D93092E00E9B368;
+					};
+				};
+			};
+			buildConfigurationList = 496957601D93092E00E9B368 /* Build configuration list for PBXProject "Circuvals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 4969575C1D93092E00E9B368;
+			productRefGroup = 496957661D93092E00E9B368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496957641D93092E00E9B368 /* Circuvals */,
+				4969577B1D93092E00E9B368 /* CircuvalsTests */,
+				498E30741E29270400C85645 /* CircuvalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496957631D93092E00E9B368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496957731D93092E00E9B368 /* Assets.xcassets in Resources */,
+				49827DE31F62697800BBBF00 /* Localizable.strings in Resources */,
+				49827DDE1F62697700BBBF00 /* InfoPlist.strings in Resources */,
+				498E30811E29284D00C85645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4969577A1D93092E00E9B368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498E30731E29270400C85645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494123D41E51F52D00AACA89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjcExceptionBridging.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/XCGLogger.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ObjcExceptionBridging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496957611D93092E00E9B368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C1B03A1DF0B57A005D66BE /* IntervalListTableViewController.swift in Sources */,
+				49D0871A1DB0F16800E9F610 /* Interval+CoreDataProperties.swift in Sources */,
+				49C60FEA1D95238E0042E478 /* DataManager.swift in Sources */,
+				49C60FE81D95199B0042E478 /* CircleTimerView.swift in Sources */,
+				496957711D93092E00E9B368 /* Circuvals.xcdatamodeld in Sources */,
+				4997D1091E8CD79F00CE898E /* UIApplication+Startup.swift in Sources */,
+				496957A01D930D6700E9B368 /* Set.swift in Sources */,
+				49D7ED231D9E3C3B002A6BFD /* EditTypeTableViewCell.swift in Sources */,
+				49DCB08A1DCCAFC400C7F620 /* SetFactory.swift in Sources */,
+				491725201DFD6EFB00B6156A /* IntervalTableViewController.swift in Sources */,
+				49C60FE61D9518C90042E478 /* TimerViewController.swift in Sources */,
+				49C60FEC1D9536960042E478 /* SetFormatter.swift in Sources */,
+				494F8A811DA5334B00D0C1AC /* EditDurationTableViewCell.swift in Sources */,
+				49C518E61F58195C0097608A /* EditTitleTableViewCell.swift in Sources */,
+				49FE8D5B1F5D89B7003E57C8 /* DependencyInjection.swift in Sources */,
+				49D0871C1DB0F17B00E9F610 /* Set+CoreDataProperties.swift in Sources */,
+				4969579A1D9309DC00E9B368 /* Interval.swift in Sources */,
+				490E1B2E1DF6B6B4003C33EB /* SetTableViewController.swift in Sources */,
+				496B3B161F1406E800CB352B /* SettingsTableViewCell.swift in Sources */,
+				4901371F1F5F16B100A18547 /* SetListTableViewController+Services.swift in Sources */,
+				496957691D93092E00E9B368 /* AppDelegate.swift in Sources */,
+				4970DEF61DA3FCA200853960 /* IntervalFormatter.swift in Sources */,
+				497963971D943B3300B86049 /* SetTimer.swift in Sources */,
+				49E953D21D9BB3B00025B8E2 /* SetListTableViewController.swift in Sources */,
+				49B0DC2B1DAFA6750035B1EB /* SpeechQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496957781D93092E00E9B368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497963991D94452000B86049 /* SetTimerTests.swift in Sources */,
+				49CF0AF41DD783E20043443E /* SetFormatterTests.swift in Sources */,
+				49DC63B01DDED2610090EA1A /* IntervalTests.swift in Sources */,
+				492E6D411F643BAF00906BA2 /* TestHelper.swift in Sources */,
+				496957811D93092E00E9B368 /* SetTests.swift in Sources */,
+				49272B7C1E3B23F700D6B449 /* IntervalFormatterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498E30711E29270400C85645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E20BE31E4B4397001AACD9 /* SetListTableViewUITests.swift in Sources */,
+				49C9C1F31E5621D100584F92 /* StaticTableViewUITests.swift in Sources */,
+				495BA2671E6718060088223E /* IntervalTableViewUITests.swift in Sources */,
+				499470A41E576598007D8DB4 /* IntervalListTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4969577E1D93092E00E9B368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496957641D93092E00E9B368 /* Circuvals */;
+			targetProxy = 4969577D1D93092E00E9B368 /* PBXContainerItemProxy */;
+		};
+		498E307B1E29270400C85645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496957641D93092E00E9B368 /* Circuvals */;
+			targetProxy = 498E307A1E29270400C85645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49827DE01F62697700BBBF00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49827DDF1F62697700BBBF00 /* de */,
+				49827DE81F6269AD00BBBF00 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49827DE51F62697800BBBF00 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49827DE41F62697800BBBF00 /* de */,
+				49827DE71F6269AD00BBBF00 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		498E307F1E29284D00C85645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498E30801E29284D00C85645 /* Base */,
+				49827DDB1F6264FA00BBBF00 /* de */,
+				49827DE61F6269AD00BBBF00 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4969578E1D93092E00E9B368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4969578F1D93092E00E9B368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496957911D93092E00E9B368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				DEVELOPMENT_TEAM = J6HU7FZCS8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Circuvals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.Circuvals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		496957921D93092E00E9B368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				DEVELOPMENT_TEAM = J6HU7FZCS8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Circuvals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.Circuvals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		496957941D93092E00E9B368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J6HU7FZCS8;
+				INFOPLIST_FILE = Circuvals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.CoreIntervalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circuvals.app/Circuvals";
+			};
+			name = Debug;
+		};
+		496957951D93092E00E9B368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J6HU7FZCS8;
+				INFOPLIST_FILE = Circuvals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.CoreIntervalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circuvals.app/Circuvals";
+			};
+			name = Release;
+		};
+		498E307D1E29270400C85645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J6HU7FZCS8;
+				INFOPLIST_FILE = CircuvalsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.CoreIntervalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CoreInterval;
+			};
+			name = Debug;
+		};
+		498E307E1E29270400C85645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J6HU7FZCS8;
+				INFOPLIST_FILE = CircuvalsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.CoreIntervalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CoreInterval;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496957601D93092E00E9B368 /* Build configuration list for PBXProject "Circuvals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4969578E1D93092E00E9B368 /* Debug */,
+				4969578F1D93092E00E9B368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496957901D93092E00E9B368 /* Build configuration list for PBXNativeTarget "Circuvals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496957911D93092E00E9B368 /* Debug */,
+				496957921D93092E00E9B368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496957931D93092E00E9B368 /* Build configuration list for PBXNativeTarget "CircuvalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496957941D93092E00E9B368 /* Debug */,
+				496957951D93092E00E9B368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498E307C1E29270400C85645 /* Build configuration list for PBXNativeTarget "CircuvalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498E307D1E29270400C85645 /* Debug */,
+				498E307E1E29270400C85645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49CA2D3E1F5FFB4E002AA03C /* CoreInterval v5.xcdatamodel */,
+				49CA2D3D1F5FC4DC002AA03C /* CoreInterval v4.xcdatamodel */,
+				49C518E41F580CF80097608A /* CoreInterval v3.xcdatamodel */,
+				494B597E1F1E941900C2CB8F /* CoreInterval v2.xcdatamodel */,
+				496957701D93092E00E9B368 /* CoreInterval.xcdatamodel */,
+			);
+			currentVersion = 49CA2D3E1F5FFB4E002AA03C /* CoreInterval v5.xcdatamodel */;
+			path = Circuvals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4969575D1D93092E00E9B368 /* Project object */;
+}
