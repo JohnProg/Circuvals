@@ -1,5 +1,6 @@
 import XCTest
 import CoreData
+
 @testable import Circuvals
 
 class FakeTimerIntervalDelegate: SetTimerDelegate {

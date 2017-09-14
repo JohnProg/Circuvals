@@ -1,8 +1,7 @@
 import XCTest
 import CoreData
-@testable import Circuvals
 
-import XCTest
+@testable import Circuvals
 
 class IntervalTypeTest: XCTestCase {
     func testReadable() {

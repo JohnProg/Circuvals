@@ -30,16 +30,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         if UIApplication.isRunningUITest() {
             log.debug("Application is running UITests...")
-            dataManager.testData()
+            //dataManager.testData()
         }
         if let rvc = window!.rootViewController as? DataManagerInjectable {
             log.debug("Setting up dependencies")
             rvc.injectWith(dataManager: dataManager)
         }
         do {
-            let setsCount = try dataManager.persistentContainer.viewContext.count(for: Set.fetchRequest())
+            let setRequest = Set.fetchRequest() as NSFetchRequest<Set>
+            let setsCount = try dataManager.persistentContainer.viewContext.count(for: setRequest)
             log.debug("Set Count: \(setsCount)")
-            let intervalsCount = try dataManager.persistentContainer.viewContext.count(for: Interval.fetchRequest())
+            let intervalRequest = Interval.fetchRequest() as NSFetchRequest<Interval>
+            let intervalsCount = try dataManager.persistentContainer.viewContext.count(for: intervalRequest)
             log.debug("Interval Count: \(intervalsCount)")
         }
         catch {

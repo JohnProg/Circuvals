@@ -10,42 +10,41 @@
 		4901371F1F5F16B100A18547 /* SetListTableViewController+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4901371E1F5F16B100A18547 /* SetListTableViewController+Services.swift */; };
 		490E1B2E1DF6B6B4003C33EB /* SetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E1B2D1DF6B6B4003C33EB /* SetTableViewController.swift */; };
 		491725201DFD6EFB00B6156A /* IntervalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917251F1DFD6EFB00B6156A /* IntervalTableViewController.swift */; };
-		49272B7C1E3B23F700D6B449 /* IntervalFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */; };
-		492E6D411F643BAF00906BA2 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E6D401F643BAF00906BA2 /* TestHelper.swift */; };
+		491F2ACA1F6ACA01007458A1 /* Circuvals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */; };
 		494F8A811DA5334B00D0C1AC /* EditDurationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */; };
-		495BA2671E6718060088223E /* CircuvalsUITests in Sources */ = {isa = PBXBuildFile; fileRef = 495BA2661E6718060088223E /* CircuvalsUITests */; };
 		496957691D93092E00E9B368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957681D93092E00E9B368 /* AppDelegate.swift */; };
-		496957711D93092E00E9B368 /* Circuvals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */; };
 		496957731D93092E00E9B368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496957721D93092E00E9B368 /* Assets.xcassets */; };
-		496957811D93092E00E9B368 /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957801D93092E00E9B368 /* SetTests.swift */; };
 		4969579A1D9309DC00E9B368 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957991D9309DC00E9B368 /* Interval.swift */; };
 		496957A01D930D6700E9B368 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969579F1D930D6700E9B368 /* Set.swift */; };
 		496B3B161F1406E800CB352B /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B3B151F1406E800CB352B /* SettingsTableViewCell.swift */; };
 		4970DEF61DA3FCA200853960 /* IntervalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970DEF51DA3FCA200853960 /* IntervalFormatter.swift */; };
 		497963971D943B3300B86049 /* SetTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497963961D943B3300B86049 /* SetTimer.swift */; };
-		497963991D94452000B86049 /* SetTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497963981D94452000B86049 /* SetTimerTests.swift */; };
 		49827DDE1F62697700BBBF00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49827DE01F62697700BBBF00 /* InfoPlist.strings */; };
 		49827DE31F62697800BBBF00 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49827DE51F62697800BBBF00 /* Localizable.strings */; };
+		498317B81F6AC4A00049E406 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498317B61F6AC4A00049E406 /* XCGLogger.framework */; };
 		498E30811E29284D00C85645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498E307F1E29284D00C85645 /* Main.storyboard */; };
-		499470A41E576598007D8DB4 /* IntervalListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */; };
+		499434FB1F6AF4F2003F5AEB /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E6D401F643BAF00906BA2 /* TestHelper.swift */; };
+		499434FC1F6AF530003F5AEB /* SetFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF0AF31DD783E20043443E /* SetFormatterTests.swift */; };
+		499434FD1F6AF56B003F5AEB /* SetTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497963981D94452000B86049 /* SetTimerTests.swift */; };
+		499434FE1F6AF57D003F5AEB /* IntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC63AF1DDED2610090EA1A /* IntervalTests.swift */; };
+		499435001F6AF5BB003F5AEB /* IntervalFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */; };
 		4997D1091E8CD79F00CE898E /* UIApplication+Startup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997D1081E8CD79F00CE898E /* UIApplication+Startup.swift */; };
 		49B0DC2B1DAFA6750035B1EB /* SpeechQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B0DC2A1DAFA6750035B1EB /* SpeechQueue.swift */; };
-		49C07B681F67FD1800EDCF5C /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */; };
-		49C07B691F67FD1800EDCF5C /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494B59881F1F285C00C2CB8F /* XCGLogger.framework */; };
+		49B1E6481F6ADA2F0042BEC4 /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496957801D93092E00E9B368 /* SetTests.swift */; };
+		49B1E64C1F6ADA980042BEC4 /* SetTimerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4969578B1D93092E00E9B368 /* SetTimerViewUITests.swift */; };
+		49B1E64D1F6ADA9B0042BEC4 /* SetListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */; };
+		49B1E64E1F6ADAA00042BEC4 /* StaticTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */; };
+		49B1E64F1F6ADAA30042BEC4 /* IntervalListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */; };
 		49C1B03A1DF0B57A005D66BE /* IntervalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C1B0391DF0B57A005D66BE /* IntervalListTableViewController.swift */; };
 		49C518E61F58195C0097608A /* EditTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C518E51F58195C0097608A /* EditTitleTableViewCell.swift */; };
 		49C60FE61D9518C90042E478 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE51D9518C90042E478 /* TimerViewController.swift */; };
 		49C60FE81D95199B0042E478 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE71D95199B0042E478 /* CircleTimerView.swift */; };
 		49C60FEA1D95238E0042E478 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FE91D95238E0042E478 /* DataManager.swift */; };
 		49C60FEC1D9536960042E478 /* SetFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C60FEB1D9536960042E478 /* SetFormatter.swift */; };
-		49C9C1F31E5621D100584F92 /* StaticTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */; };
-		49CF0AF41DD783E20043443E /* SetFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CF0AF31DD783E20043443E /* SetFormatterTests.swift */; };
 		49D0871A1DB0F16800E9F610 /* Interval+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D087191DB0F16800E9F610 /* Interval+CoreDataProperties.swift */; };
 		49D0871C1DB0F17B00E9F610 /* Set+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0871B1DB0F17B00E9F610 /* Set+CoreDataProperties.swift */; };
 		49D7ED231D9E3C3B002A6BFD /* EditTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D7ED221D9E3C3B002A6BFD /* EditTypeTableViewCell.swift */; };
-		49DC63B01DDED2610090EA1A /* IntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC63AF1DDED2610090EA1A /* IntervalTests.swift */; };
 		49DCB08A1DCCAFC400C7F620 /* SetFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DCB0891DCCAFC400C7F620 /* SetFactory.swift */; };
-		49E20BE31E4B4397001AACD9 /* SetListTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */; };
 		49E953D21D9BB3B00025B8E2 /* SetListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E953D11D9BB3B00025B8E2 /* SetListTableViewController.swift */; };
 		49FE8D5B1F5D89B7003E57C8 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE8D5A1F5D89B7003E57C8 /* DependencyInjection.swift */; };
 /* End PBXBuildFile section */
@@ -56,14 +55,14 @@
 			containerPortal = 4969575D1D93092E00E9B368 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 496957641D93092E00E9B368;
-			remoteInfo = CoreInterval;
+			remoteInfo = Circuvals;
 		};
 		498E307A1E29270400C85645 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4969575D1D93092E00E9B368 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 496957641D93092E00E9B368;
-			remoteInfo = CoreInterval;
+			remoteInfo = Circuvals;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,15 +72,12 @@
 		4917251F1DFD6EFB00B6156A /* IntervalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalTableViewController.swift; sourceTree = "<group>"; };
 		49272B7B1E3B23F700D6B449 /* IntervalFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalFormatterTests.swift; sourceTree = "<group>"; };
 		492E6D401F643BAF00906BA2 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
-		494B597E1F1E941900C2CB8F /* CoreInterval v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v2.xcdatamodel"; sourceTree = "<group>"; };
+		494B597E1F1E941900C2CB8F /* Circuvals v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Circuvals v2.xcdatamodel"; sourceTree = "<group>"; };
 		494B597F1F1F1F1E00C2CB8F /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = SOURCE_ROOT; };
-		494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/iOS/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
-		494B59881F1F285C00C2CB8F /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 		494F8A801DA5334B00D0C1AC /* EditDurationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDurationTableViewCell.swift; sourceTree = "<group>"; };
-		495BA2661E6718060088223E /* CircuvalsUITests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = CircuvalsUITests; sourceTree = SOURCE_ROOT; };
 		496957651D93092E00E9B368 /* Circuvals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circuvals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496957681D93092E00E9B368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		496957701D93092E00E9B368 /* CoreInterval.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreInterval.xcdatamodel; sourceTree = "<group>"; };
+		496957701D93092E00E9B368 /* Circuvals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Circuvals.xcdatamodel; sourceTree = "<group>"; };
 		496957721D93092E00E9B368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496957771D93092E00E9B368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4969577C1D93092E00E9B368 /* CircuvalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuvalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,21 +97,22 @@
 		49827DE61F6269AD00BBBF00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		49827DE71F6269AD00BBBF00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		49827DE81F6269AD00BBBF00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498317B61F6AC4A00049E406 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 		498E30751E29270400C85645 /* CircuvalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuvalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498E30801E29284D00C85645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalListTableViewUITests.swift; sourceTree = "<group>"; };
 		4997D1081E8CD79F00CE898E /* UIApplication+Startup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Startup.swift"; sourceTree = "<group>"; };
 		49B0DC2A1DAFA6750035B1EB /* SpeechQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechQueue.swift; sourceTree = "<group>"; };
 		49C1B0391DF0B57A005D66BE /* IntervalListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalListTableViewController.swift; sourceTree = "<group>"; };
-		49C518E41F580CF80097608A /* CoreInterval v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v3.xcdatamodel"; sourceTree = "<group>"; };
+		49C518E41F580CF80097608A /* Circuvals v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Circuvals v3.xcdatamodel"; sourceTree = "<group>"; };
 		49C518E51F58195C0097608A /* EditTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleTableViewCell.swift; sourceTree = "<group>"; };
 		49C60FE51D9518C90042E478 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		49C60FE71D95199B0042E478 /* CircleTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
 		49C60FE91D95238E0042E478 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		49C60FEB1D9536960042E478 /* SetFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFormatter.swift; sourceTree = "<group>"; };
 		49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTableViewUITests.swift; sourceTree = "<group>"; };
-		49CA2D3D1F5FC4DC002AA03C /* CoreInterval v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v4.xcdatamodel"; sourceTree = "<group>"; };
-		49CA2D3E1F5FFB4E002AA03C /* CoreInterval v5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreInterval v5.xcdatamodel"; sourceTree = "<group>"; };
+		49CA2D3D1F5FC4DC002AA03C /* Circuvals v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Circuvals v4.xcdatamodel"; sourceTree = "<group>"; };
+		49CA2D3E1F5FFB4E002AA03C /* Circuvals v5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Circuvals v5.xcdatamodel"; sourceTree = "<group>"; };
 		49CF0AF31DD783E20043443E /* SetFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFormatterTests.swift; sourceTree = "<group>"; };
 		49D087191DB0F16800E9F610 /* Interval+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Interval+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		49D0871B1DB0F17B00E9F610 /* Set+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -132,8 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C07B681F67FD1800EDCF5C /* ObjcExceptionBridging.framework in Frameworks */,
-				49C07B691F67FD1800EDCF5C /* XCGLogger.framework in Frameworks */,
+				498317B81F6AC4A00049E406 /* XCGLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +173,7 @@
 		494B59891F1F287600C2CB8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				494B59871F1F285C00C2CB8F /* ObjcExceptionBridging.framework */,
-				494B59881F1F285C00C2CB8F /* XCGLogger.framework */,
+				498317B61F6AC4A00049E406 /* XCGLogger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,7 +241,6 @@
 				49E20BE01E4B3E84001AACD9 /* SetListTableViewUITests.swift */,
 				49C9C1F21E5621D100584F92 /* StaticTableViewUITests.swift */,
 				499470A31E576598007D8DB4 /* IntervalListTableViewUITests.swift */,
-				495BA2661E6718060088223E /* CircuvalsUITests */,
 				4969578D1D93092E00E9B368 /* Info.plist */,
 			);
 			path = CircuvalsUITests;
@@ -306,7 +300,7 @@
 			dependencies = (
 			);
 			name = Circuvals;
-			productName = CoreInterval;
+			productName = Circuvals;
 			productReference = 496957651D93092E00E9B368 /* Circuvals.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -324,7 +318,7 @@
 				4969577E1D93092E00E9B368 /* PBXTargetDependency */,
 			);
 			name = CircuvalsTests;
-			productName = CoreIntervalTests;
+			productName = CircuvalsTests;
 			productReference = 4969577C1D93092E00E9B368 /* CircuvalsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -342,7 +336,7 @@
 				498E307B1E29270400C85645 /* PBXTargetDependency */,
 			);
 			name = CircuvalsUITests;
-			productName = CoreIntervalUITests;
+			productName = CircuvalsUITests;
 			productReference = 498E30751E29270400C85645 /* CircuvalsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -453,10 +447,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C1B03A1DF0B57A005D66BE /* IntervalListTableViewController.swift in Sources */,
+				491F2ACA1F6ACA01007458A1 /* Circuvals.xcdatamodeld in Sources */,
 				49D0871A1DB0F16800E9F610 /* Interval+CoreDataProperties.swift in Sources */,
 				49C60FEA1D95238E0042E478 /* DataManager.swift in Sources */,
 				49C60FE81D95199B0042E478 /* CircleTimerView.swift in Sources */,
-				496957711D93092E00E9B368 /* Circuvals.xcdatamodeld in Sources */,
 				4997D1091E8CD79F00CE898E /* UIApplication+Startup.swift in Sources */,
 				496957A01D930D6700E9B368 /* Set.swift in Sources */,
 				49D7ED231D9E3C3B002A6BFD /* EditTypeTableViewCell.swift in Sources */,
@@ -484,12 +478,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497963991D94452000B86049 /* SetTimerTests.swift in Sources */,
-				49CF0AF41DD783E20043443E /* SetFormatterTests.swift in Sources */,
-				49DC63B01DDED2610090EA1A /* IntervalTests.swift in Sources */,
-				492E6D411F643BAF00906BA2 /* TestHelper.swift in Sources */,
-				496957811D93092E00E9B368 /* SetTests.swift in Sources */,
-				49272B7C1E3B23F700D6B449 /* IntervalFormatterTests.swift in Sources */,
+				499434FC1F6AF530003F5AEB /* SetFormatterTests.swift in Sources */,
+				499435001F6AF5BB003F5AEB /* IntervalFormatterTests.swift in Sources */,
+				49B1E6481F6ADA2F0042BEC4 /* SetTests.swift in Sources */,
+				499434FE1F6AF57D003F5AEB /* IntervalTests.swift in Sources */,
+				499434FD1F6AF56B003F5AEB /* SetTimerTests.swift in Sources */,
+				499434FB1F6AF4F2003F5AEB /* TestHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +491,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E20BE31E4B4397001AACD9 /* SetListTableViewUITests.swift in Sources */,
-				49C9C1F31E5621D100584F92 /* StaticTableViewUITests.swift in Sources */,
-				495BA2671E6718060088223E /* CircuvalsUITests in Sources */,
-				499470A41E576598007D8DB4 /* IntervalListTableViewUITests.swift in Sources */,
+				49B1E64E1F6ADAA00042BEC4 /* StaticTableViewUITests.swift in Sources */,
+				49B1E64D1F6ADA9B0042BEC4 /* SetListTableViewUITests.swift in Sources */,
+				49B1E64F1F6ADAA30042BEC4 /* IntervalListTableViewUITests.swift in Sources */,
+				49B1E64C1F6ADA980042BEC4 /* SetTimerViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,7 +706,7 @@
 				DEVELOPMENT_TEAM = J6HU7FZCS8;
 				INFOPLIST_FILE = Circuvals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.CoreIntervalTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.thestoneage.circuvals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -728,7 +722,7 @@
 				DEVELOPMENT_TEAM = J6HU7FZCS8;
 				INFOPLIST_FILE = Circuvals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.CoreIntervalTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.thestoneage.circuvals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -744,12 +738,13 @@
 				INFOPLIST_FILE = CircuvalsUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.CoreIntervalUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.thestoneage.circuvals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = CoreInterval;
+				TEST_TARGET_NAME = Circuvals;
 			};
 			name = Debug;
 		};
@@ -761,11 +756,12 @@
 				INFOPLIST_FILE = CircuvalsUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.thestoneage.CoreIntervalUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.thestoneage.circuvals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = CoreInterval;
+				TEST_TARGET_NAME = Circuvals;
 			};
 			name = Release;
 		};
@@ -814,13 +810,13 @@
 		4969576F1D93092E00E9B368 /* Circuvals.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				49CA2D3E1F5FFB4E002AA03C /* CoreInterval v5.xcdatamodel */,
-				49CA2D3D1F5FC4DC002AA03C /* CoreInterval v4.xcdatamodel */,
-				49C518E41F580CF80097608A /* CoreInterval v3.xcdatamodel */,
-				494B597E1F1E941900C2CB8F /* CoreInterval v2.xcdatamodel */,
-				496957701D93092E00E9B368 /* CoreInterval.xcdatamodel */,
+				49CA2D3E1F5FFB4E002AA03C /* Circuvals v5.xcdatamodel */,
+				49CA2D3D1F5FC4DC002AA03C /* Circuvals v4.xcdatamodel */,
+				49C518E41F580CF80097608A /* Circuvals v3.xcdatamodel */,
+				494B597E1F1E941900C2CB8F /* Circuvals v2.xcdatamodel */,
+				496957701D93092E00E9B368 /* Circuvals.xcdatamodel */,
 			);
-			currentVersion = 49CA2D3E1F5FFB4E002AA03C /* CoreInterval v5.xcdatamodel */;
+			currentVersion = 49CA2D3E1F5FFB4E002AA03C /* Circuvals v5.xcdatamodel */;
 			path = Circuvals.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

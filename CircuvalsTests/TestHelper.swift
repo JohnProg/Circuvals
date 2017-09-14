@@ -1,6 +1,8 @@
 import CoreData
 import Foundation
 
+@testable import Circuvals
+
 struct TestHelper {
     static let persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "Circuvals")

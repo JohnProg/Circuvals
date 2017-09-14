@@ -1,7 +1,6 @@
 import XCTest
 import CoreData
 
-
 @testable import Circuvals
 
 class IntervalFormatterTests: XCTestCase {

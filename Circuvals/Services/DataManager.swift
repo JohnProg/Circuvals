@@ -53,7 +53,7 @@ class DataManager {
     
     func testData() {
         let moc = persistentContainer.viewContext
-        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = Set.fetchRequest()
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Set")
         let batchDeleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
         do {
             log.debug("Deleting all sets")

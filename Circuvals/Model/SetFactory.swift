@@ -36,7 +36,8 @@ class SetFactory {
     
     static func createSetWith(title: String, context: NSManagedObjectContext) -> Set {
         do {
-            let index = try context.count(for: Set.fetchRequest())
+            let fetchRequeset = Set.fetchRequest() as NSFetchRequest<Set> 
+            let index = try context.count(for: fetchRequeset)
             let set = Set(title: title, context: context)
             set.index = Int64(index)
             return set
